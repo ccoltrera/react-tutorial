@@ -1,8 +1,7 @@
 var React = require('react');
 var CommentBox = require('./CommentBox.jsx');
-var data = require('./data');
 
 React.render(
-  <CommentBox data={data}/>,
+  <CommentBox url='comments.json' pollInterval={2000}/>,
   document.getElementById('content')
 );

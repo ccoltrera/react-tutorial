@@ -10,12 +10,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "body-parser": "^1.13.3",
     "browserify": "^11.0.1",
+    "express": "^4.13.3",
     "react": "^0.13.3",
     "reactify": "^1.1.1"
   },
-  "browserify" : {
-    "transform" : [
+  "browserify": {
+    "transform": [
       "reactify"
     ]
   }
